@@ -1,7 +1,4 @@
 #This class add the student details and sort according to age
-from unicodedata import name
-
-
 class Student_Details:
 
     def __init__(self, name, age, address,student_id):
