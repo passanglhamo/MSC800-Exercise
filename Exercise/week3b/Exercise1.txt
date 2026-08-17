@@ -1,0 +1,17 @@
+The ER diagram shows the student enrollment process. A student provides personal information such as first name, 
+last name, NID, and date of birth. While enrolling, the system records enrolment specific details like student 
+code, date of enrollment, course name, and CC number.The enrolls relationship connects three things (the student, 
+enrollment, and the lecture being enrolled.
+
+The system also contains a lecture module. Each lecture session has its own CC number, time, date, subject, and lecturer.  
+The lecture session is connected to two entities. One is lecturer, which contain information such as lecture ID, first name,
+last name, email and address and another is subjects they lecture which has following attributes: subject code, subject udsc 
+and subject unit.
+
+*** Two Additional attributes ***
+Student : email and mobile number
+
+**** Relation ****
+1.	A student can have zero or multiple enrolments, but each enrolment record is associated with zero or one student.
+2.	A lecturer can lecture zero or many subjects, and a subject can be taught by zero or many lecture.
+
