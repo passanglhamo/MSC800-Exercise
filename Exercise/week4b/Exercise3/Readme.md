@@ -2,7 +2,7 @@ Money Exchange Rate System — Activity Diagrams
 ----------------------------------------------
 The document shows the activity diagrams for money exchange rate system.There are three activity diagrams.
 Customer : Activity Diagram 1
-Admin : Activity Diagram 2
+Admin : Activity Diagram 2 and Activity Diagram 3
 
 Activity Diagram 1 (Customer)
 -----------------------------
